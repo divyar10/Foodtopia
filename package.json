@@ -1,0 +1,37 @@
+{
+  "name": "foodtopia",
+  "version": "1.0.0",
+  "description": "A full stack web application serving you with information about which NSIT eatery to head to when looking for ideal food :)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divyar10/FoodTopia.git"
+  },
+  "author": "divyar10 and msknkh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyar10/FoodTopia/issues"
+  },
+  "homepage": "https://github.com/divyar10/FoodTopia#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cat-me": "^1.0.3",
+    "connect-flash": "^0.1.1",
+    "crypto": "^1.0.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "method-override": "^2.3.10",
+    "moment": "^2.21.0",
+    "mongoose": "^5.0.7",
+    "nodemailer": "^4.6.3",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.5.0"
+  }
+}

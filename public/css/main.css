@@ -1,0 +1,51 @@
+
+/* footer styles */
+html {  
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+/* Thumbnails */
+.thumbnail img {
+    width: 100%;
+}
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+#deleteForm {
+    display: inline;
+}
+#short{
+    text-align: center;
+    width:50%;
+    margin:50px auto;
+}
+#copyright{
+    margin-left: 43%
+}
+.deleteForm{
+    display: inline;
+}
