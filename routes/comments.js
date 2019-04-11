@@ -56,7 +56,7 @@ router.get("/:comment_id/edit", middleware.checkCommentOwnership, function(req,r
         if(err){
             res.redirect("back");
         }else{
-             res.render("comments/edit",{restaurant_id : req.params.id, comment:foundComment}); 
+             res.render("editComment",{restaurant_id : req.params.id, comment:foundComment}); 
         }
     });
  });
